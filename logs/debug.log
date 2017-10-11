@@ -1,0 +1,327 @@
+[2017-10-10 23:15:05.247] [DEBUG] debug - routes index webindex
+[2017-10-10 23:16:06.445] [DEBUG] debug - routes common checkUsername
+[2017-10-10 23:16:06.446] [DEBUG] debug - crud common checkUsername
+[2017-10-10 23:16:06.467] [DEBUG] debug - crud result
+[2017-10-10 23:16:06.631] [DEBUG] debug - routes common checkUsername
+[2017-10-10 23:16:06.632] [DEBUG] debug - crud common checkUsername
+[2017-10-10 23:16:06.636] [DEBUG] debug - crud result
+[2017-10-10 23:16:12.756] [DEBUG] debug - routes common checkUsername
+[2017-10-10 23:16:12.757] [DEBUG] debug - crud common checkUsername
+[2017-10-10 23:16:12.758] [DEBUG] debug - crud result
+[2017-10-10 23:16:14.476] [DEBUG] debug - routes signup signup
+[2017-10-10 23:16:14.476] [DEBUG] debug - validate email
+[2017-10-10 23:16:14.477] [DEBUG] debug - validate username
+[2017-10-10 23:16:14.477] [DEBUG] debug - validate password
+[2017-10-10 23:16:14.478] [DEBUG] debug - validate string
+[2017-10-10 23:16:14.479] [DEBUG] debug - crud signup checkUser
+[2017-10-10 23:16:14.494] [DEBUG] debug - crud result
+[2017-10-10 23:16:14.494] [DEBUG] debug - crud common checkUsername
+[2017-10-10 23:16:14.498] [DEBUG] debug - crud result
+[2017-10-10 23:16:14.499] [DEBUG] debug - crud signup addUser
+[2017-10-10 23:16:14.502] [DEBUG] debug - config encrypt genRandomString
+[2017-10-10 23:16:14.502] [DEBUG] debug - config encrypt sha512
+[2017-10-10 23:16:14.503] [DEBUG] debug - config utils randomStringGenerate
+[2017-10-10 23:16:14.617] [DEBUG] debug - crud result{ __v: 0,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: false,
+  _id: 59dd07666e10c579cae80351,
+  social: [] }
+[2017-10-10 23:16:14.617] [DEBUG] debug - crud common sendLink
+[2017-10-10 23:16:14.618] [DEBUG] debug - config utils randomStringGenerate
+[2017-10-10 23:16:14.621] [DEBUG] debug - config utils fillSession
+[2017-10-10 23:16:14.622] [DEBUG] debug - config utils fillWebSession
+[2017-10-10 23:16:14.644] [DEBUG] debug - crud result[object Object]
+[2017-10-10 23:16:14.645] [DEBUG] debug - utils create mail verificationlink { type: 'verificationlink',
+  email: 'junejamukul7@gmail.com',
+  url: 'http://localhost:1234/#/emailactivate?e=junejamukul7@gmail.com&t=K25mpPhntaa1vEhDKTeCcWhcgF5k08wm' }
+[2017-10-10 23:16:14.648] [DEBUG] debug - config utils sendMail
+[2017-10-10 23:16:14.814] [DEBUG] debug - routes index webindex
+[2017-10-10 23:16:14.815] [DEBUG] debug - crud index checkSession
+[2017-10-10 23:16:14.822] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'K25mpPhntaa1vEhDKTeCcWhcgF5k08wm',
+  social: [] }
+[2017-10-10 23:16:14.822] [DEBUG] debug - config utils fillSession
+[2017-10-10 23:16:14.823] [DEBUG] debug - config utils fillWebSession
+[2017-10-10 23:16:19.294] [INFO] debug - Message sent: 250 2.0.0 OK 1507657579 o22sm9180928pfi.85 - gsmtp
+[2017-10-10 23:16:33.714] [DEBUG] debug - routes index webindex
+[2017-10-10 23:16:33.715] [DEBUG] debug - crud index checkSession
+[2017-10-10 23:16:33.721] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'K25mpPhntaa1vEhDKTeCcWhcgF5k08wm',
+  social: [] }
+[2017-10-10 23:16:33.723] [DEBUG] debug - config utils fillSession
+[2017-10-10 23:16:33.723] [DEBUG] debug - config utils fillWebSession
+[2017-10-10 23:16:33.997] [DEBUG] debug - routes common activateemail
+[2017-10-10 23:16:33.997] [DEBUG] debug - validate email
+[2017-10-10 23:16:33.997] [DEBUG] debug - validate string
+[2017-10-10 23:16:33.999] [DEBUG] debug - crud common checkToken
+[2017-10-10 23:16:34.003] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: 'K25mpPhntaa1vEhDKTeCcWhcgF5k08wm',
+  social: [] }
+[2017-10-10 23:16:34.003] [DEBUG] debug - crud common activateEmail
+[2017-10-10 23:16:34.006] [DEBUG] debug - crud result[object Object]
+[2017-10-10 23:16:34.436] [DEBUG] debug - routes index webindex
+[2017-10-10 23:16:34.436] [DEBUG] debug - crud index checkSession
+[2017-10-10 23:16:34.439] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: true,
+  __v: 0,
+  emailactivationtoken: null,
+  social: [] }
+[2017-10-10 23:16:34.439] [DEBUG] debug - config utils fillSession
+[2017-10-10 23:16:34.443] [DEBUG] debug - config utils fillWebSession
+[2017-10-10 23:16:52.508] [DEBUG] debug - routes profile uploadPic
+[2017-10-10 23:16:55.802] [DEBUG] debug - routes index webindex
+[2017-10-10 23:16:55.803] [DEBUG] debug - crud index checkSession
+[2017-10-10 23:16:55.809] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: true,
+  __v: 0,
+  emailactivationtoken: null,
+  social: [] }
+[2017-10-10 23:16:55.809] [DEBUG] debug - config utils fillSession
+[2017-10-10 23:16:55.809] [DEBUG] debug - config utils fillWebSession
+[2017-10-11 03:25:51.050] [DEBUG] debug - routes index webindex
+[2017-10-11 03:25:59.039] [DEBUG] debug - routes login login
+[2017-10-11 03:25:59.040] [DEBUG] debug - validate email
+[2017-10-11 03:25:59.041] [DEBUG] debug - validate username
+[2017-10-11 03:25:59.041] [DEBUG] debug - validate mobile
+[2017-10-11 03:25:59.042] [DEBUG] debug - validate password
+[2017-10-11 03:25:59.043] [DEBUG] debug - crud login doLogin
+[2017-10-11 03:25:59.066] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: true,
+  __v: 0,
+  emailactivationtoken: null,
+  social: [] }
+[2017-10-11 03:25:59.067] [DEBUG] debug - config encrypt sha512
+[2017-10-11 03:25:59.067] [DEBUG] debug - config utils fillSession
+[2017-10-11 03:25:59.068] [DEBUG] debug - config utils fillWebSession
+[2017-10-11 03:25:59.085] [DEBUG] debug - routes index webindex
+[2017-10-11 03:25:59.086] [DEBUG] debug - crud index checkSession
+[2017-10-11 03:25:59.088] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: true,
+  __v: 0,
+  emailactivationtoken: null,
+  social: [] }
+[2017-10-11 03:25:59.089] [DEBUG] debug - config utils fillSession
+[2017-10-11 03:25:59.089] [DEBUG] debug - config utils fillWebSession
+[2017-10-11 03:27:38.802] [DEBUG] debug - routes index webindex
+[2017-10-11 03:27:38.802] [DEBUG] debug - crud index checkSession
+[2017-10-11 03:27:38.806] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: true,
+  __v: 0,
+  emailactivationtoken: null,
+  social: [] }
+[2017-10-11 03:27:38.806] [DEBUG] debug - config utils fillSession
+[2017-10-11 03:27:38.807] [DEBUG] debug - config utils fillWebSession
+[2017-10-11 03:28:29.380] [DEBUG] debug - routes index webindex
+[2017-10-11 03:28:29.383] [DEBUG] debug - crud index checkSession
+[2017-10-11 03:28:29.387] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: true,
+  __v: 0,
+  emailactivationtoken: null,
+  social: [] }
+[2017-10-11 03:28:29.388] [DEBUG] debug - config utils fillSession
+[2017-10-11 03:28:29.389] [DEBUG] debug - config utils fillWebSession
+[2017-10-11 03:28:52.967] [DEBUG] debug - routes profile updateMobile
+[2017-10-11 03:28:52.968] [DEBUG] debug - validate code
+[2017-10-11 03:28:52.968] [DEBUG] debug - validate mobile
+[2017-10-11 03:28:52.969] [DEBUG] debug - crud profile sendVerificationCode
+[2017-10-11 03:28:52.969] [DEBUG] debug - config utils randomStringGenerate
+[2017-10-11 03:28:52.974] [DEBUG] debug - crud result[object Object]
+[2017-10-11 03:28:52.975] [DEBUG] debug - config utils sendSms
+[2017-10-11 03:28:54.725] [ERROR] debug - { status: 400,
+  message: 'The From phone number +13148885390 is not a valid, SMS-capable inbound phone number or short code for your account.',
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606' }
+[2017-10-11 03:32:19.819] [DEBUG] debug - routes profile updateMobile
+[2017-10-11 03:32:19.819] [DEBUG] debug - validate code
+[2017-10-11 03:32:19.820] [DEBUG] debug - validate mobile
+[2017-10-11 03:32:19.820] [DEBUG] debug - crud profile sendVerificationCode
+[2017-10-11 03:32:19.822] [DEBUG] debug - config utils randomStringGenerate
+[2017-10-11 03:32:19.824] [DEBUG] debug - crud result[object Object]
+[2017-10-11 03:32:19.824] [DEBUG] debug - config utils sendSms
+[2017-10-11 03:32:21.148] [ERROR] debug - { status: 400,
+  message: 'The From phone number +13148885390 is not a valid, SMS-capable inbound phone number or short code for your account.',
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606' }
+[2017-10-11 16:16:55.440] [DEBUG] debug - routes index webindex
+[2017-10-11 16:17:06.079] [DEBUG] debug - routes login login
+[2017-10-11 16:17:06.080] [DEBUG] debug - validate email
+[2017-10-11 16:17:06.080] [DEBUG] debug - validate username
+[2017-10-11 16:17:06.080] [DEBUG] debug - validate mobile
+[2017-10-11 16:17:06.080] [DEBUG] debug - validate password
+[2017-10-11 16:17:06.081] [DEBUG] debug - crud login doLogin
+[2017-10-11 16:17:06.117] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: true,
+  __v: 0,
+  emailactivationtoken: null,
+  temporarymobile: '+918826436592',
+  mobileverificationcode: 'GD7UiG',
+  social: [] }
+[2017-10-11 16:17:06.124] [DEBUG] debug - config encrypt sha512
+[2017-10-11 16:17:06.124] [DEBUG] debug - config utils fillSession
+[2017-10-11 16:17:06.125] [DEBUG] debug - config utils fillWebSession
+[2017-10-11 16:17:06.146] [DEBUG] debug - routes index webindex
+[2017-10-11 16:17:06.146] [DEBUG] debug - crud index checkSession
+[2017-10-11 16:17:06.151] [DEBUG] debug - crud result{ _id: 59dd07666e10c579cae80351,
+  useremail: 'junejamukul7@gmail.com',
+  username: 'mukul',
+  password1: '1892e0c60ba8fac8c95a673cedf5dd5b196e832db2d6f175e138e7730c2ef736a3e52718a3769b8c0ac0e31eb85276fca0979aefa511fd076bebb39583cac562',
+  role: 'customer',
+  salt: 'b7d3cbadf8a07466',
+  userid: 'YM4RpoNTCPAshW8RfhAp8Uvbl5RCvLKn',
+  registrationdate: 2017-10-10T17:46:14.515Z,
+  emailverified: true,
+  __v: 0,
+  emailactivationtoken: null,
+  temporarymobile: '+918826436592',
+  mobileverificationcode: 'GD7UiG',
+  social: [] }
+[2017-10-11 16:17:06.151] [DEBUG] debug - config utils fillSession
+[2017-10-11 16:17:06.151] [DEBUG] debug - config utils fillWebSession
+[2017-10-11 16:17:28.928] [DEBUG] debug - routes index logout
+[2017-10-11 16:17:28.929] [DEBUG] debug - crud index destroySession
+[2017-10-11 16:17:28.930] [DEBUG] debug - config utils webSessionDestroy
+[2017-10-11 16:17:29.320] [DEBUG] debug - routes index webindex
+[2017-10-11 16:17:44.987] [DEBUG] debug - routes index webindex
+[2017-10-11 20:44:58.374] [DEBUG] debug - routes index webindex
+[2017-10-11 20:45:12.594] [DEBUG] debug - routes common checkUsername
+[2017-10-11 20:45:12.597] [DEBUG] debug - crud common checkUsername
+[2017-10-11 20:45:12.617] [DEBUG] debug - crud result
+[2017-10-11 20:45:12.857] [DEBUG] debug - routes common checkUsername
+[2017-10-11 20:45:12.859] [DEBUG] debug - crud common checkUsername
+[2017-10-11 20:45:12.863] [DEBUG] debug - crud result
+[2017-10-11 20:45:13.025] [DEBUG] debug - routes common checkUsername
+[2017-10-11 20:45:13.028] [DEBUG] debug - crud common checkUsername
+[2017-10-11 20:45:13.061] [DEBUG] debug - crud result
+[2017-10-11 20:45:19.332] [DEBUG] debug - routes signup signup
+[2017-10-11 20:45:19.334] [DEBUG] debug - validate email
+[2017-10-11 20:45:19.335] [DEBUG] debug - validate username
+[2017-10-11 20:45:19.335] [DEBUG] debug - validate password
+[2017-10-11 20:45:19.337] [DEBUG] debug - validate string
+[2017-10-11 20:45:19.337] [DEBUG] debug - crud signup checkUser
+[2017-10-11 20:45:19.344] [DEBUG] debug - crud result
+[2017-10-11 20:45:19.346] [DEBUG] debug - crud common checkUsername
+[2017-10-11 20:45:19.347] [DEBUG] debug - crud result
+[2017-10-11 20:45:19.350] [DEBUG] debug - crud signup addUser
+[2017-10-11 20:45:19.350] [DEBUG] debug - config encrypt genRandomString
+[2017-10-11 20:45:19.351] [DEBUG] debug - config encrypt sha512
+[2017-10-11 20:45:19.351] [DEBUG] debug - config utils randomStringGenerate
+[2017-10-11 20:45:19.462] [DEBUG] debug - crud result{ __v: 0,
+  useremail: 'manogyakhanna12@gmail.com',
+  username: 'manogya',
+  password1: '6f4aba294327abbad94dd943237531def3f9766f6f0d31905cb3f03cd7cdc84797cefb423275fac370120c195f43b7fa53b828ff84e0734468a2c0dae0fa597d',
+  role: 'customer',
+  salt: 'a5b061ae454a3c40',
+  userid: 'koREIIPCdiIws2xGYcOQq5SMKzzSFZax',
+  registrationdate: 2017-10-11T15:15:19.355Z,
+  emailverified: false,
+  _id: 59de35876e10c579cae80352,
+  social: [] }
+[2017-10-11 20:45:19.463] [DEBUG] debug - crud common sendLink
+[2017-10-11 20:45:19.463] [DEBUG] debug - config utils randomStringGenerate
+[2017-10-11 20:45:19.469] [DEBUG] debug - config utils fillSession
+[2017-10-11 20:45:19.469] [DEBUG] debug - config utils fillWebSession
+[2017-10-11 20:45:19.475] [DEBUG] debug - crud result[object Object]
+[2017-10-11 20:45:19.476] [DEBUG] debug - utils create mail verificationlink { type: 'verificationlink',
+  email: 'manogyakhanna12@gmail.com',
+  url: 'http://localhost:1234/#/emailactivate?e=manogyakhanna12@gmail.com&t=3OufgbB0eFMyFnXQPDUo1WtwihrQgCKf' }
+[2017-10-11 20:45:19.476] [DEBUG] debug - config utils sendMail
+[2017-10-11 20:45:19.530] [DEBUG] debug - routes index webindex
+[2017-10-11 20:45:19.530] [DEBUG] debug - crud index checkSession
+[2017-10-11 20:45:19.533] [DEBUG] debug - crud result{ _id: 59de35876e10c579cae80352,
+  useremail: 'manogyakhanna12@gmail.com',
+  username: 'manogya',
+  password1: '6f4aba294327abbad94dd943237531def3f9766f6f0d31905cb3f03cd7cdc84797cefb423275fac370120c195f43b7fa53b828ff84e0734468a2c0dae0fa597d',
+  role: 'customer',
+  salt: 'a5b061ae454a3c40',
+  userid: 'koREIIPCdiIws2xGYcOQq5SMKzzSFZax',
+  registrationdate: 2017-10-11T15:15:19.355Z,
+  emailverified: false,
+  __v: 0,
+  emailactivationtoken: '3OufgbB0eFMyFnXQPDUo1WtwihrQgCKf',
+  social: [] }
+[2017-10-11 20:45:19.533] [DEBUG] debug - config utils fillSession
+[2017-10-11 20:45:19.534] [DEBUG] debug - config utils fillWebSession
+[2017-10-11 20:45:23.537] [INFO] debug - Message sent: 250 2.0.0 OK 1507734924 k24sm28577233pfj.151 - gsmtp
+[2017-10-11 22:42:10.074] [DEBUG] debug - routes index webindex
